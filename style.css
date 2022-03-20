@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 172, 172);
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard {
+    border: 3px solid;
+    border-radius: 10px;
+    
+}
+
+#scoreText {
+    font-family: "verdana" sans-serif;
+    font-size: 100px;
+}
+
+#resetBtn {
+    background-color: rgb(184, 185, 245);
+    font-family: "verdana", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
