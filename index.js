@@ -149,7 +149,7 @@ gameStart();
         //overlaped parts of snake
             let i = 1;
             l = snake.length;
-            for(i = 1; i < l; i+=1){
+            for(i; i < l; i+=1){
                 if(snake[i].x == snake[0].x && snake[i].y == snake[0].y){
                     running = false;
                 }
